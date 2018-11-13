@@ -1,0 +1,55 @@
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+#showcase {
+  margin-top: 50px;
+}
+.navbar {
+  margin-bottom: 0;
+  background-color: lightgray;
+  border: 0;
+  font-size: 11px;
+  letter-spacing: 4px;
+  opacity: 0.9;
+}
+
+.navbar li a,
+.navbar {
+  color: Black;
+}
+
+.navbar-nav li a:hover {
+  color: white;
+}
+
+.navbar-nav li.active a {
+  color: black;
+  background-color: lightgray;
+}
+
+.btn:hover {
+  background-color: darkgray;
+}
+
+/* #cart{
+    display: none;
+} */
+
+footer {
+  background-color: #2d2d30;
+  color: white;
+  padding: 40px;
+  width: 100%;
+  margin: auto;
+}
+
+footer a {
+  color: white;
+}
+
+footer a:hover {
+  color: #777;
+  text-decoration: none;
+}
